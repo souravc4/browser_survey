@@ -9,7 +9,7 @@
 
 	fwrite($file, fread($file1,filesize("choice.json")));
 	fclose($file);
-//
+
 	$file = fopen("data.json", "r+") or die("Unable to open file!");
 	fseek($file, -3, SEEK_END);
 	fwrite($file, "}");
