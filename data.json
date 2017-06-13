@@ -8,4 +8,12 @@
 "souravkumarc4@gmail.com": {
     "name": "Sourav Kumar",
     "browser": "firefox"
+},
+"test1@gmail.com": {
+    "name": "test",
+    "browser": "firefox"
+},
+"random@yahoo.com": {
+    "name": "random",
+    "browser": "chrome"
 }}

@@ -2,9 +2,9 @@ app.controller("wCtrl", function($scope) {
 
 	$(function() {
 		$("#submit_btn").click(function() {
-			$("#result").fadeIn("slow");
+
 		    var values = $('#choice').serialize();
-		    
+		   
 		    //form validation
 		    function validateEmail(email) {
 		    	var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -18,8 +18,9 @@ app.controller("wCtrl", function($scope) {
 				$("#valid_test").css("color", "white");
 				$("#name").css("borderWidth", "3px");
 				$("#name").css("borderColor", "#a94141");
-
 				return false;
+			}else{
+				$("#name").css("border","1px solid #ccc");
 			}
 		    var email = $("#email").val();
 		    if (validateEmail(email)==false) {
@@ -28,7 +29,11 @@ app.controller("wCtrl", function($scope) {
 				$("#email").css("borderWidth", "3px");
 				$("#email").css("borderColor", "#a94141");
 				return false;
+			}else{
+				$("#email").css("border","1px solid #ccc");
 			}
+
+			$("#result").fadeIn("slow");
 
 		    $.ajax({
 		    	url: "submit.php",
