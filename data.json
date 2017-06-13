@@ -1,0 +1,11 @@
+{"john@xyz.com": {
+    "name": "john",
+    "browser": "dummy"
+},"johnfoe@gmail.com": {
+    "name": "johnny cash",
+    "browser": "chrome"
+},
+"souravkumarc4@gmail.com": {
+    "name": "Sourav Kumar",
+    "browser": "firefox"
+}}
