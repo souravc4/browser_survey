@@ -1,19 +1,19 @@
 "john@xyz.com": {
     "name": "john",
     "browser": "dummy"
-},"johnfoe@gmail.com": {
-    "name": "johnny cash",
-    "browser": "chrome"
-},
-"souravkumarc4@gmail.com": {
-    "name": "Sourav Kumar",
-    "browser": "firefox"
-},
-"test1@gmail.com": {
+},"test@wqerty.com": {
     "name": "test",
+    "browser": "chrome"
+},
+"testt@a.com": {
+    "name": "test1",
     "browser": "firefox"
 },
-"random@yahoo.com": {
-    "name": "random",
-    "browser": "chrome"
+"sourav@gmail.com": {
+    "name": "sourav",
+    "browser": "firefox"
+},
+"etete@tft.com": {
+    "name": "random1",
+    "browser": "explorer"
 },

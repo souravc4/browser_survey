@@ -82,12 +82,10 @@ app.controller("wCtrl", function($scope) {
 		    		var $konqueror = (((1.0*konqueror)/tot)*100).toFixed(1);
 		    		var $lynx = (((1.0*lynx)/tot)*100).toFixed(1);
 
-		    		/*console.log(tot);
+		    		console.log(tot);
 		    		console.log($chrome);
-		    		console.log(opera);
-		    		console.log(operap);
-		    		console.log(lynx);
-		    		console.log(lynxp);*/
+		    		console.log(safari);
+		    		console.log($safari);
 		    		
 		    		$(".chrome").html($chrome+'%');
 		    		$(".chrome").css("width", $chrome+'%');
@@ -106,7 +104,7 @@ app.controller("wCtrl", function($scope) {
 		    		
 				});
 
-		    }, 500);
+		    }, 1500);
 
 		});
 	});
